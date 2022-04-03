@@ -1,0 +1,13 @@
+news_sites:
+  eltiempo:
+    url: https://eltiempo.com
+    queries:
+      homepage_article_links : '.page-link, .title'
+      article_body: '.modulos p'
+      article_title: '.titulo-principal-bk h1'
+  elpais:
+    url: https://elpais.com
+    queries:
+      homepage_article_links : '.c_t a'
+      article_body: '.a_c'
+      article_title: '.a_e_txt h1'
